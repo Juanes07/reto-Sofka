@@ -116,14 +116,14 @@ for (let category of categories) {
     console.log('ESTOY EN LA CATEGORIA', category.id)
 
     // buscar las preguntas de la categoria en la estamos y la pasamos a un array
-    const preguntasCategoria = questions.filter(question => question.category === category.id)
+    const questionCategory = questions.filter(question => question.category === category.id)
 
-    console.log('preguntasCategoria', preguntasCategoria)
+    console.log('questionCategory', questionCategory)
 
 
     // seleccionamos un pregunta aleatoria
-    const random = Math.floor(Math.random() * preguntasCategoria.length);
-    const questionSelected = preguntasCategoria[random]
+    const random = Math.floor(Math.random() * questionCategory.length);
+    const questionSelected = questionCategory[random]
     console.log('questionSelected', questionSelected)
 
     // sacamos las respuestas
