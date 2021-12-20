@@ -20,6 +20,24 @@ const categories = [
   }
 ]
 
+// class categoria{
+//   constructor(id,name,points){
+//     this.id;
+//     this.name;
+//     this.points
+//   }
+// }
+
+
+
+  // function createNewPerson(name) {
+  //   var obj = {};
+  //   obj.name = name;
+  //   obj.greeting = function() {
+  //     alert('Hi! I\'m ' + this.name + '.');
+  //   };
+  //   return obj;
+  // }
 const questions = [
   {
     description: 'cuanto es 2x2?',
